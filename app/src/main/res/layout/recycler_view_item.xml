@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:weightSum="2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvDsgName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="tvDsgName" />
+
+        <TextView
+            android:id="@+id/tvDsgRating"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="tvDsgRating" />
+
+        <TextView
+            android:id="@+id/tvDsgId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="tvDsgId" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvDdsAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="tvDdsAddress" />
+
+        <TextView
+            android:id="@+id/tvDsgCity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="tvDsgCity" />
+
+        <TextView
+            android:id="@+id/tvDsgState"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="tvDsgState" />
+    </LinearLayout>
+
+
+</LinearLayout>
